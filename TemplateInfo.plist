@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>This generates a model controller file with all the necessary singleton logic in place.</string>
+	<key>Summary</key>
+	<string>This generates a model controller file with all the necessary singleton logic in place.</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>methodName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Method:</string>
+			<key>Description</key>
+			<string>This is the name of your model controller</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>referenceHandle</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Reference Handle:</string>
+			<key>Default</key>
+			<string>objReference</string>
+			<key>Description</key>
+			<string>This is the name of the private variable.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
