@@ -25,11 +25,10 @@ mkdir File Templates
 ```SHELL
 cd File\ Templates/
 ```
-5. Copy the Model-Controller.xctemplate folder in here. Assuming this was downloaded into the _Downloads_ folder. 
+5. Copy the Model-Controller.xctemplate folder in here. Assuming this was downloaded into the _Downloads_ folder. You may need to authenticate as an administrator.
 ```SHELL
 cp ~/Downloads/Model-Controller.xctemplate .
 ```
-You may need to authenticate as an administrator.
 6. Reopen Xcode. 
 7. Try to create a new File using the newly created template.
 
